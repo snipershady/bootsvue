@@ -28,11 +28,11 @@ getData();
           </tr>
         </thead>
         <tbody>
-          <tr v-for="user in tableData" :key="user.id">
-            <td>{{ user.id }}</td>
-            <td>{{ user.title }}</td>
-            <td>{{ user.subtitle }}</td>
-            <td>{{ user.body }}</td>
+          <tr v-for="post in tableData" :key="post.id">
+            <td>{{ post.id }}</td>
+            <td>{{ post.title }}</td>
+            <td>{{ post.subtitle }}</td>
+            <td>{{ post.body }}</td>
           </tr>
         </tbody>
       </table>
