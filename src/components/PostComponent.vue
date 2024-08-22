@@ -4,7 +4,7 @@ import { ref } from "vue";
 const tableData = ref([]);
 
 function getData() {
-  return fetch("http://local.sym7vue.com/get_all_user")
+  return fetch("https://apibootsvue.spinfo.it/post/get-all")
     .then((response) => response.json())
     .then((json) => {
       tableData.value = json;
@@ -22,20 +22,22 @@ getData();
         <thead class="table-success">
           <tr>
             <th>ID</th>
-            <th>Nome</th>
-            <th>Cognome</th>
+            <th>Titolo</th>
+            <th>Sottotitolo</th>
+            <th>Testo</th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="user in tableData" :key="user.id">
             <td>{{ user.id }}</td>
-            <td>{{ user.nome }}</td>
-            <td>{{ user.cognome }}</td>
+            <td>{{ user.title }}</td>
+            <td>{{ user.subtitle }}</td>
+            <td>{{ user.body }}</td>
           </tr>
         </tbody>
       </table>
     </div>
-    <div v-else>mammt</div>
+    <div v-else>Loading...</div>
   </div>
 </template>
 

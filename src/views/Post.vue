@@ -7,8 +7,8 @@ import UsersTable from '@/components/UsersTable.vue'
 <template>
   <div class="container-fluid">
   <div>
-    <h1>Users</h1>
-    <p>Benvenuto nella pagina Users!</p>
+    <h1>Post</h1>
+    <p>Tutti i post</p>
   </div>
 </div>
 <div class="container-fluid">

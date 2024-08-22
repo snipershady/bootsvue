@@ -1,8 +1,6 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-export default {
-  name: 'App',
-};
+
 </script>
 
 <template>
@@ -19,7 +17,7 @@ export default {
               <RouterLink class="nav-link" to="/">Home</RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/users">Users</RouterLink>
+              <RouterLink class="nav-link" to="/post">Post</RouterLink>
             </li>
           </ul>
         </div>
