@@ -17,7 +17,7 @@ getData();
 <template>
   <div>
     <h2>Elenco Utenti - Tabella</h2>
-    <div v-if="tableData">
+    <div v-if="tableData.length > 0">
       <table class="table table-striped">
         <thead class="table-success">
           <tr>
