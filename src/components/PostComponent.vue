@@ -1,6 +1,5 @@
 <script setup>
-    import {ref} from 'vue';
-    import {DataTable} from 'simple-datatables';
+    import {ref, onMounted} from 'vue';
 
     const tableData = ref([]);
 
@@ -51,7 +50,7 @@
 
                             <!-- Table with stripped rows -->
                             <div v-if="tableData.length > 0">
-                                <table id="post-table" class="table datatable">
+                                <table id="myTable" class="table datatable">
                                     <thead class="">
                                         <tr>
                                             <th>ID</th>

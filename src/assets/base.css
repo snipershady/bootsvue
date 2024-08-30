@@ -697,6 +697,10 @@
     color: #4154f1;
   }
   
+  .active {
+    color: #1d6bf1 !important;
+  }
+  
   .sidebar-nav .nav-link.collapsed {
     color: #012970;
     background: #fff;
