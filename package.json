@@ -19,6 +19,7 @@
     "pinia": "^2.1.7",
     "quill": "^2.0.2",
     "remixicon": "^4.3.0",
+    "simple-datatables": "^9.1.0",
     "tinymce": "^7.3.0",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
