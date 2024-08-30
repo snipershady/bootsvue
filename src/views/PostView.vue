@@ -1,6 +1,5 @@
 <script setup>
-import { ref } from 'vue'
-import UsersTable from '@/components/UsersTable.vue'
+import PostComponent from '@/components/PostComponent.vue'
 
 </script>
 
@@ -12,8 +11,6 @@ import UsersTable from '@/components/UsersTable.vue'
   </div>
 </div>
 <div class="container-fluid">
-  <div id="app">
-    <UsersTable />
-  </div>
+  <PostComponent />
 </div>
 </template>

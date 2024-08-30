@@ -1,0 +1,4 @@
+{
+    "src/**/*.{js,vue}": ["eslint --color src", "prettier --check src"],
+    "src/**/*.{css,vue}": ["stylelint --quiet-deprecation-warnings src"]
+}

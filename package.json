@@ -11,17 +11,26 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "apexcharts": "^3.52.0",
     "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "boxicons": "^2.1.4",
+    "chart.js": "^4.4.4",
     "pinia": "^2.1.7",
+    "quill": "^2.0.2",
+    "remixicon": "^4.3.0",
+    "tinymce": "^7.3.0",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
+    "@eslint/js": "^9.9.1",
     "@rushstack/eslint-patch": "^1.8.0",
     "@vitejs/plugin-vue": "^5.0.5",
     "@vue/eslint-config-prettier": "^9.0.0",
     "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.23.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "globals": "^15.9.0",
     "prettier": "^3.2.5",
     "vite": "^5.3.1"
   }

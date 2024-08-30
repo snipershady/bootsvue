@@ -1,0 +1,17 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+*.html
+
+# Ignore minified files:
+*.min.js
+
+# Ignore files in node_modules:
+node_modules/
+dist/
+
+# Ignore auto-imports files:
+.eslintrc-auto-import.json
+auto-imports.d.ts
