@@ -4,7 +4,7 @@
     const tableData = ref([]);
 
     function getData() {
-        return fetch('https://apibootsvue.spinfo.it/post/get-all')
+        return fetch('http://local.sym7vuebe.com/post/get-all')
             .then(response => response.json())
             .then(json => {
                 tableData.value = json;
