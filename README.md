@@ -48,3 +48,11 @@ npm run build
 ```bash
 npm run lint
 ```
+
+### Force all package updates
+```bash
+npx npm-check-updates -u
+npm upgrade
+npm install
+```
+
