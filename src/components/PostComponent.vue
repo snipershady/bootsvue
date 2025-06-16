@@ -18,13 +18,9 @@ function archivePost(id) {
   fetch(`http://local.sym7vuebe.com/post/${id}/archive`, { method: "POST" })
     .then((response) => response.json())
     .then((json) => {
-      console.log("Post archiviato:", json);
-      getData(); // Aggiorna la lista dopo l'archiviazione
+      getData(); 
     });
 }
-
-
-
 
 getData();
 
